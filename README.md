@@ -1,2 +1,2 @@
-# uc-wizard-poc
+# uc-wizard
 Created with CodeSandbox

@@ -1,0 +1,217 @@
+{
+  "data": [
+    {
+      "key": 1.1,
+      "title": "ANAGRAFICA",
+      "description": null,
+      "stepKey": "",
+      "pages": [
+        {
+          "id": 1,
+          "questions": [
+            {
+              "question": "Quante persone compongono il nucleo familiare che basano il loro sostentamento sul suo patrimonio?",
+              "options": [],
+              "field": "nucleo_familiare",
+              "info": {
+                "heading": "Intestazione di riferimento",
+                "birthDate": "Anno di Nascita"
+              },
+              "type": "input",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 1.2,
+      "title": "SITUAZIONE FINANZIARIA",
+      "description": "Ti saranno richieste informazioni riguardo la situazione finanziaria (entrate e uscite), il tuo patrimonio mobiliare e immobiliare ed eventuale debito residuo presso intermediari terzi",
+      "stepKey": "",
+      "pages": [
+        {
+          "id": 1,
+          "questions": [
+            {
+              "question": "Quante persone compongono il nucleo familiare che basano il loro sostentamento sul suo patrimonio?",
+              "options": [
+                "Non ho entrate regolari mensili",
+                "Fino a 1000 euro",
+                "Tra 1001 e 2000 euro",
+                "Tra 2001  e 3500 euro",
+                "Oltre 3500 euro",
+                "Oltre 5000 euro"
+              ],
+
+              "field": "persone_sul_patrimonio",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "questions": [
+            {
+              "question": "In quale fascia ricadono i suoi impegni finanziari mensili presso intermediari terzi?",
+              "options": [
+                "Non ho impegni finanziari mensili presso intermediari terzi",
+                "Fino a 250 euro",
+                "Tra 251 e 750 euro",
+                "Tra 751  e 2000 euro",
+                "Oltre 2000 euro",
+                "Non rispondo"
+              ],
+              "field": "reddito_medio",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "questions": [
+            {
+              "question": "In quale fascia ricadono le sue altre uscite mensili ricorrenti?",
+              "options": [
+                "Non ho altre uscite mensili",
+                "Fino a 250 euro",
+                "Tra 251 e 750 euro",
+                "Tra 751  e 2000 euro",
+                "Oltre 2000 euro",
+                "Non rispondo"
+              ],
+              "field": "uscite_mensili",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "questions": [
+            {
+              "question": "In quale fascia ricade il Suo patrimonio mobiliari presso intermediari terzi?",
+              "options": [
+                "Non possiedo patrimonio mobiliare presso intermediari terzi",
+                "Fino a 20000 euro",
+                "Tra 20001 e 50000 euro",
+                "Tra 50000  e 150000 euro",
+                "Tra 150001  e 300000 euro",
+                "Oltre 300000 euro",
+                "Non rispondo"
+              ],
+              "field": "patrimonio_mobiliare",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "questions": [
+            {
+              "question": "In quale fascia ricade il Suo patrimonio immobiliare?",
+              "options": [
+                "Non possiedo patrimonio immobiliare",
+                "Fino a 15000 euro",
+                "Tra 15001 e 75000 euro",
+                "Tra 75000  e 200000 euro",
+                "Tra 200001  e 300000 euro",
+                "Oltre 300000 euro",
+                "Non rispondo"
+              ],
+              "field": "patrimonio_immobiliare",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "questions": [
+            {
+              "question": "In quale fascia ricade il suo debito residuo presso intermediari terzi?",
+              "options": [
+                "Non ho debito presso intermediari terzi",
+                "Fino a 15000 euro",
+                "Tra 15001 e 75000 euro",
+                "Tra 75000  e 200000 euro",
+                "Tra 200001  e 300000 euro",
+                "Oltre 300000 euro",
+                "Non rispondo"
+              ],
+              "field": "reddito_su_terzi",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 1.3,
+      "title": "OBBIETTIVI DI INVESTIMENTO",
+      "stepKey": "",
+      "description": "Ti saranno richieste informazioni riguardo il profilo di rischio e orizzonte temporale eventuale debito residuo presso intermediari terzi",
+      "pages": [
+        {
+          "id": 1,
+          "questions": [
+            {
+              "question": "Considerato che le oscillazioni dei mercati finanziari impattano positivamente o negativamente sui valori dei portafogli e che ad ogni rendimento atteso é collegato un pari grado di rischio, quale delle seguenti situazioni si attende per i suoi investrimenti?",
+              "options": [
+                "Andamento sostanzialmente stabile del valore del capitale investito: rendimento attesso a rischio di perdita limitati (profilo cauto)",
+                "Contenuta oscillazione del valore del capitale investito: rendimento atteso e rischio di perdita moderati (profilo prudente)",
+                "Media oscillazione del valore del capitale investito: rendimento atteso e rischio di perdita significativi (profilo bilanciato)",
+                "Elevata oscillazione del valore del capitale investito: rendimento atteso e rischio di perdita elevati (profilo dinamico)"
+              ],
+              "field": "profilo_rischio",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "questions": [
+            {
+              "question": "Definito l'orizzonte temporale come il periodo di tempo per il quale un investitore intende conservare i propri investimenti finanziari, quale é il suo orizzonte temporale?",
+              "options": [
+                "Breve periodo (fino a 18 mesi)",
+                "Prevalentemente breve periodo (fino a 18 mesi), limitando eventuali investimenti nel medio/lungo periodo al 20% del portafoglio",
+                "Medio periodo (fino a 60 mesi)",
+                "Prevalentemente medio peridoo (fino a 60 mesi), limitando eventuali investimenti nel lungo periodo al 30% del portafoglio",
+                "Prevalentemente oo totalmente di lungo periodo (oltre 60 mesi)"
+              ],
+              "field": "durata_investimento",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            },
+            {
+              "question": "Tra quelle proposte puó specificare la motivazione all abase della sua scelta relativamente all'orizzonte temporale?",
+              "options": [
+                "Ai fini della pianificazione successoria",
+                "Integrazione del reddito tramite un flusso cedolare per il mantenimento del tenore di vita",
+                "Nessuna dei precedenti"
+              ],
+              "field": "orizzonte_temporale",
+              "info": null,
+              "type": "radio",
+              "completed": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
